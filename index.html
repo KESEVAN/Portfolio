@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <meta charset="utff-8" />
+        <title>Page Title</Title></title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+       <div class="container">
+           <div class="nav-wrapper">
+               <div class="left-side">
+                   <div class="nav-link-wrapper active-nav-link">
+                        <a href="index.html">Home</a>
+                   </div>
+                   <div class="nav-link-wrapper ">
+                        <a href="about.html">About</a>
+                   </div>
+               </div>
+               <div class="right-side">
+                    <div class="brand">
+                        <div>KESEVAN SEKAR BALAJI</div>
+                    </div>
+               </div>
+           </div> 
+       </div>
+       <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image: url(imgport/bcdeee603c7baf8014964b7c1f18a516.jpg)"></div>
+                        <div class="img-text-wrapper">
+
+                                        
+                            <div class="subtitle">
+                                <h2>
+                                    Probably the first programming 
+                                    language I learnt and good at.
+                                    Currently, diving in advanced C++ 
+                                </h2>
+                                
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image: url(imgport/9e22f4f5fdcaa7486b07e84b355ef41d.png)"></div>
+                        <div class="img-text-wrapper">
+                            
+                            <div class="subtitle">
+                                <h2>
+                                    The language i learnt 1st year in college
+                                    The mother of all languages 
+                                </h2>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image: url(imgport/77588.jpg)"></div>
+                        <div class="img-text-wrapper">
+                            
+                            <div class="subtitle">
+                                <h2>
+                                    Most trending language and i love the 
+                                    simplicity of it. Currently, using it 
+                                    for machine learning with TensorFlow. 
+                                </h2>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image: url(imgport/previewfile_1509840735.jpg)"></div>
+                        <div class="img-text-wrapper">
+                            
+                            <div class="subtitle">
+                                <h2>
+                                    Learnt the fundamentals and applying 
+                                    it on JavaFX. 
+                                </h2>
+                            </div>
+                        </div>   
+                    
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image: url(imgport/screen-shot-2018-01-23-at-10-16-58-am.png)"></div>
+                        <div class="img-text-wrapper">
+                        
+                            <div class="subtitle">
+                                <h2>
+                                    Love Android, Love Kotlin,
+                                    learning the fundamentals. 
+                                </h2>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image: url(imgport/139b757e13.png)"></div>
+                        <div class="img-text-wrapper">
+                        
+                         <div class="subtitle">
+                            <h2>
+                                Going to learn complete MERN stack. 
+                            </h2>
+                         </div>
+                        </div>
+                   
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image: url(imgport/The_Era-of-Computer-Vision-Is-Here.png)"></div>
+                        <div class="img-text-wrapper">
+                        
+                         <div class="subtitle">
+                            <h2>
+                                Learning to implement with TensorFlow.
+                            </h2>
+                         </div>
+                        </div>
+                    
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image: url(imgport/main-qimg-7341afc76f68d58ffdc5a0986901330f.jpg)"></div>
+                        <div class="img-text-wrapper">
+                        
+                         <div class="subtitle">
+                            <h2>
+                               Love CyberSecurity and Ethical Hacking,
+                               will learn more with Kali Linux.
+                            </h2>
+                         </div>
+                        </div>
+                    
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image: url(imgport/jhep-coursera-course4.jpg)"> </div>
+                        <div class="img-text-wrapper">
+                        
+                            <div class="subtitle">
+                                <h2>
+                                    Well I am sure you can notice the level of knowledge in this 
+                                    based on the website your looking at created by me.
+                                </h2>
+                            </div>
+                        </div>
+                   
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+       </div>
+         
+          
+    </body>
+<script>
+const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover',() => {
+       
+        portfolioItem.childNodes[1].classList.add('img-darken');
+    })
+
+    portfolioItem.addEventListener('mouseout',() => {
+        
+        portfolioItem.childNodes[1].classList.remove('img-darken');
+    })
+
+})
+</script>
+
+</html>
